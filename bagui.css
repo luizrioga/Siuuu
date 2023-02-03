@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    margin: 5%;
+    border-radius: 0.8rem;
+    border: 3px solid black;
+    display: block;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.3)
+
+    
+}
+html{background-image: url(https://media-manager.noticiasaominuto.com/1920/naom_63c9929a4fcc3.jpg);;
+}
+h1{
+    margin: 2%;
+    margin-bottom: 2%;
+    font-size: 35px;
+    border-radius: 0.8rem;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(211, 214, 2);
+}
+
+h3, p {
+    color: rgb(0,0,255);
+    font-size:larger ;
+    border-top: 5px;
+}
+div{
+    margin-bottom: 2%;
+}
+#btn{
+    font-size: 15px;
+    background-color: rgb(211,214,2);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 0.8rem   ;
+    width: 85px;
+    height: 30px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    color: blue;
+    cursor: pointer;
+   
+    font-weight: bold;
+    text-align: center !important;
+    justify-content: center;
+    display: block;
+}
+#champions{
+    border: solid black;
+    border-radius: 0.8rem;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    padding: 35px;
+
+    
+
+}
+#ballon{
+
+    border: solid black;
+    border-radius: 0.8rem;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    padding: 60px;
+
+}
+#btn:hover {
+	background-color: rgba(0, 0, 255, 0.3);
+   
+	 
+}
+#btn:hover:after {
+	 
+    content: "Siuuuu";
+    color: pink;
+    border: solid black;
+    border-radius: 0.8rem;
+    background-color: yellow;
+    
+ 
+}
